@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Profile</title>
+    <link rel="stylesheet" href="linkedin.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="linkedin.html" class="logo"><img src="images/linkn.png"> </a>
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#"  class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/jobs.jpg"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>Network</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Message</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notification</span></a></li>
+                 
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user.jpg" class="nav-profile-img" onclick="toggleMenu()"> 
+            </div>
+             
+        </div>
+<!-----------profile drop down menu--------------->
+ <div class="profile-menu-wrap"  id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+          <img src="images/user.jpg" class="nav-profile-img">
+           <div>
+            <h3> Suraj Pandey</h3>
+            <a href="profile.html">See Your Profile</a>
+          </div>
+    </div>
+    <hr>
+    <a href="#" class="profile-menu-link">
+        <img src="images/feedback2.jpg" >
+        <p>Give feedback</p>
+        <span> > </span>
+    </a>
+
+    <a href="#" class="profile-menu-link">
+        <img src="images/setting2.png" >
+        <p>setting & privacy</p>
+        <span> > </span>
+    </a>
+
+    <a href="#" class="profile-menu-link">
+        <img src="images/help2.jpg" >
+        <p>Help & Support</p>
+        <span> > </span>
+    </a>
+
+    <a href="#" class="profile-menu-link">
+        <img src="images/display2.png" >
+        <p>display & Accessibility</p>
+        <span> > </span>
+    </a>
+   
+    <a href="#" class="profile-menu-link">
+        <img src="images/logout.png" >
+        <p>logout</p>
+        <span> > </span>
+    </a>
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+    </nav>
+    <!------navbar end--------->
+
+
+    <div class="container">
+     <!----------------left sidebar-------------->
+    <div class="left-sidebar">
+    <div class="sidebar-profile-box">
+        <img src="images/hacker.jpg" width="100%">
+        <div class="sidebar-profile-info">
+            <img src="images/user.jpg" width="100%">
+            <h1>Suraj Pandey</h1>
+            <h3> web developer intern in Octanet services Company</h3>
+            <ul>
+                <li>Your Profile Views<span>1000 million views</span></li>
+                <li>Your Post Views<span>2000 million views</span></li>
+                <li>Your Connections<span>3000 million views</span></li>
+            </ul>
+         
+        </div>
+
+
+     <div class="sidebar-profile-link">
+        <a href="#"><img src="images/item4.png">My Items</a>
+        <a href="#"><img src="images/premium2.jpg">Try Premium</a>
+    </div>
+ </div>
+
+ <div class="sidebar-activity" id="sidebar-activity">
+   <h3>Recent</h3>
+   <a href="#"><img src="images/recent.jpg">Web Development</a>
+   <a href="#"><img src="images/recent.jpg">User Interface</a>
+
+   <a href="#"><img src="images/recent.jpg">Online Learning</a>
+
+   <a href="#"><img src="images/recent.jpg">Learn Online</a>
+
+   <a href="#"><img src="images/recent.jpg">Code Better</a>
+   <a href="#"><img src="images/recent.jpg">Group Learning</a>
+
+   <h3>Groups</h3>
+
+   <a href="#"><img src="images/group.png">Web Design Group</a>
+   <a href="#"><img src="images/group.png">HTML & CSS Learners</a>
+
+   <a href="#"><img src="images/group.png">Python &Javascript Group</a>
+
+   <a href="#"><img src="images/group.png">Learn Coding Online</a>
+
+   <a href="#"><img src="images/group.png">Code Better</a>
+   
+  <h3>Hashtag</h3>
+  <a href="#"><img src="images/hashtag8.jpg">Web Development</a>
+  <a href="#"><img src="images/hashtag8.jpg">User Interface</a>
+
+  <a href="#"><img src="images/hashtag8.jpg">Online Learning</a>
+  <div class="discover-more-link">
+    <a href="#">Discover more</a>
+  </div>
+  </div>
+
+<p id="showMoreLink" onclick="toggleActivity()">show more<b>+</b></p>
+
+   </div>
+    <!----------------main-content---------------->
+    <div class="main-content">
+        <div class="create-post">
+            <div class="create-post-input">
+
+                <img src="images/user.jpg">
+                <textarea rows="2" placeholder="write a post"></textarea>
+               
+             </div>
+        <div class="create-post-links">
+            <li><img src="images/camera.png">Photo</li>
+            <li><img src="images/video.png">Video</li>
+            <li><img src="images/event4.png">Event</li>
+            <li>Post</li>
+
+        </div>
+     </div>
+      <div class="sort-by">
+        <hr>
+        <p>Sort by: <span>Top <img src="images/down-arrow.png"></span></p>
+       </div>
+
+       <div class="post">
+        <div class="post-author">
+            <img src="images/benjamin-leo.jpg">
+            <div>
+            <h1>Benjamin Leo</h1>
+            <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+             <small> 2 Hours Ago</small>
+
+            </div>
+        </div>
+  <p>the success of every site depend on search engine optmistion and 
+    digital marketing strategy. if you are on first page of all major
+     search engines  then you are ahead among your competitors.</p>
+     <img src="images/post.jpg" width="100%">
+
+
+   <div class="post-stats">
+
+   <div>
+     <img src="images/thumb.png" alt="">
+     <img src="images/heart.png" alt="">
+     <img src="images/clap.png" alt="">
+     <span class="liked-users">Abhinav Mishra & 75 others</span>
+
+     </div>
+
+     <div>
+        <span>22 comments &middots; 40 shares</span>
+     </div>
+
+</div>
+   <div class="post-activity">
+   <div>
+    <img src="images/user.jpg" class="post-activity-user-icon">
+    <img src="images/down-arrow2.png" class="post-activity-arrow-icon">
+</div>
+  <div class="post-activity-link">
+    <img src="images/like4.png" alt="">
+    <span>Like</span>
+  </div>
+
+  <div class="post-activity-link">
+    <img src="images/comment.png" alt="">
+    <span>Comment</span>
+  </div>
+  
+  <div class="post-activity-link">
+    <img src="images/share2.png" alt="">
+    <span>Share</span>
+  </div>
+
+  <div class="post-activity-link">
+    <img src="images/send5.jpg" alt="">
+    <span>Send</span>
+  </div>
+</div>
+</div>
+
+<div class="post">
+    <div class="post-author">
+        <img src="images/katrina.jpg">
+        <div>
+        <h1>Katrina Kaif</h1>
+        <small> she is an most beautiful actress of bollywod | heroine</small>
+         <small> 2 Hours Ago</small>
+
+        </div>
+    </div>
+<p> katrina kaif is the prettiest women in the world 
+    . she is an amazing hardworker actress.vikky kaushal ia
+     husband of katrina kaif.and say life partener.
+</p>
+ <img src="images/katrina.jpg" width="100%">
+
+
+<div class="post-stats">
+
+<div>
+ <img src="images/thumb.png" alt="">
+ <img src="images/heart.png" alt="">
+ <img src="images/clap.png" alt="">
+ <span class="liked-users">Abhinav Mishra & 75 others</span>
+
+ </div>
+
+ <div>
+    <span>22 comments &middots; 40 shares</span>
+ </div>
+
+</div>
+<div class="post-activity">
+<div>
+<img src="images/user.jpg" class="post-activity-user-icon">
+<img src="images/down-arrow2.png" class="post-activity-arrow-icon">
+</div>
+<div class="post-activity-link">
+<img src="images/like4.png" alt="">
+<span>Like</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/comment.png" alt="">
+<span>Comment</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/share2.png" alt="">
+<span>Share</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/send5.jpg" alt="">
+<span>Send</span>
+</div>
+</div>
+</div>
+
+
+<div class="post">
+    <div class="post-author">
+        <img src="images/userboy.jpg">
+        <div>
+        <h1>Man and Women</h1>
+        <small> working together ia a success of hardwork and smart work.</small>
+         <small> 2 Hours Ago</small>
+
+        </div>
+    </div>
+<p>the success of every site depend on search engine optmistion and 
+digital marketing strategy. if you are on first page of all major
+ search engines  then you are ahead among your competitors.</p>
+ <img src="images/userboy.jpg" width="100%">
+
+
+<div class="post-stats">
+
+<div>
+ <img src="images/thumb.png" alt="">
+ <img src="images/heart.png" alt="">
+ <img src="images/clap.png" alt="">
+ <span class="liked-users">Abhinav Mishra & 75 others</span>
+
+ </div>
+
+ <div>
+    <span>22 comments &middots; 40 shares</span>
+ </div>
+
+</div>
+<div class="post-activity">
+<div>
+<img src="images/user.jpg" class="post-activity-user-icon">
+<img src="images/down-arrow2.png" class="post-activity-arrow-icon">
+</div>
+<div class="post-activity-link">
+<img src="images/like4.png" alt="">
+<span>Like</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/comment.png" alt="">
+<span>Comment</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/share2.png" alt="">
+<span>Share</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/send5.jpg" alt="">
+<span>Send</span>
+</div>
+</div>
+</div>
+
+<div class="post">
+    <div class="post-author">
+        <img src="images/userwomen.jpg">
+        <div>
+        <h1>Business Man</h1>
+        <small> managing a self confidence ia a great learning thing of victory</small>
+         <small> 2 Hours Ago</small>
+
+        </div>
+    </div>
+<p>the success of every site depend on search engine optmistion and 
+digital marketing strategy. if you are on first page of all major
+ search engines  then you are ahead among your competitors.</p>
+ <img src="images/userwomen.jpg" width="100%">
+
+
+<div class="post-stats">
+
+<div>
+ <img src="images/thumb.png" alt="">
+ <img src="images/heart.png" alt="">
+ <img src="images/clap.png" alt="">
+ <span class="liked-users">Abhinav Mishra & 75 others</span>
+
+ </div>
+
+ <div>
+    <span>22 comments &middots; 40 shares</span>
+ </div>
+
+</div>
+<div class="post-activity">
+<div>
+<img src="images/user.jpg" class="post-activity-user-icon">
+<img src="images/down-arrow2.png" class="post-activity-arrow-icon">
+</div>
+<div class="post-activity-link">
+<img src="images/like4.png" alt="">
+<span>Like</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/comment.png" alt="">
+<span>Comment</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/share2.png" alt="">
+<span>Share</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/send5.jpg" alt="">
+<span>Send</span>
+</div>
+</div>
+</div>
+
+<div class="post">
+    <div class="post-author">
+        <img src="images/usergirl.jpg">
+        <div>
+        <h1>Natural Phenomenon</h1>
+        <small> working together is a key of happiness.</small>
+         <small> 2 Hours Ago</small>
+
+        </div>
+    </div>
+<p>the success of every site depend on search engine optmistion and 
+digital marketing strategy. if you are on first page of all major
+ search engines  then you are ahead among your competitors.</p>
+ <img src="images/usergirl.jpg" width="100%">
+
+
+<div class="post-stats">
+
+<div>
+ <img src="images/thumb.png" alt="">
+ <img src="images/heart.png" alt="">
+ <img src="images/clap.png" alt="">
+ <span class="liked-users">Abhinav Mishra & 75 others</span>
+
+ </div>
+
+ <div>
+    <span>22 comments &middots; 40 shares</span>
+ </div>
+
+</div>
+<div class="post-activity">
+<div>
+<img src="images/user.jpg" class="post-activity-user-icon">
+<img src="images/down-arrow2.png" class="post-activity-arrow-icon">
+</div>
+<div class="post-activity-link">
+<img src="images/like4.png" alt="">
+<span>Like</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/comment.png" alt="">
+<span>Comment</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/share2.png" alt="">
+<span>Share</span>
+</div>
+
+<div class="post-activity-link">
+<img src="images/send5.jpg" alt="">
+<span>Send</span>
+</div>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+           <!----------------right sidebar-------------->
+
+
+
+    <div class="right-sidebar">
+     <div class="sidebar-news">
+        <img src="images/more21.png" class="info-icon">
+        <h3>Trending News</h3>
+        <a href="#">High Demand for skilled manpower</a>
+        <span>1d ago &middot; 10,934 readers</span>
+
+        <a href="#"> Careers growing horizontally too</a>
+        <span>18 h ago &middot; 60,934 readers</span>
+
+        <a href="#"> Less work visa for US ,MOre for UK</a>
+        <span>20 h ago &middot; 14,734 readers</span>
+
+        <a href="#"> More hiring= higher confidence</a>
+        <span>5 h ago &middot; 60,724 readers</span>
+
+        <a href="#"> Gautam Adani is the worlds third richest/a>
+        <span>16 h ago &middot; 80,654 readers</span>
+
+        <a href="#" class="read-more-link">Read more</a>
+        
+     </div>
+   
+     <div class="sidebar-ad">
+        <small>Ad &middot; &middot; &middot;</small>
+        <p>Master the 5 Principles of web design</p>
+     <div>
+     
+     <img src="images/user.jpg" alt="">
+     <img src="images/mi-logo.jpg" alt="">
+ </div>
+     <b> Brand and Demand in Xiaomi</b>
+     <a href="#" class="ad-link">learn more</a>
+</div>
+
+<div class="sidebar-useful-links">
+    <a href="#" >About</a>
+    <a href="#" >Accessibility</a>
+    <a href="#" >Help Center</a>
+    <a href="#" >Privacy Policy</a>
+    <a href="#" >Advertising</a>
+    <a href="#" >Get the App</a>
+    <a href="#" >More</a>
+
+    <div class="copyright-msg">
+     <img src="images/linkn.png" alt="">
+    <p>Linkedup &#169; 2022.All right reserved</p>
+    </div>
+</div>
+
+
+</div>
+</div>
+</body>
+<script src="linkedin.js"></script>
+</html>

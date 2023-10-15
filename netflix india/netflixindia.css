@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sana-serif;
+    color: white;
+}   
+body {
+    background-color: #00081D;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 46px;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+    border: 20px;
+    box-sizing: border-box;
+    color: red;
+    border: 1px solid black;
+    border-radius:5px;
+    transition: all .5s;
+}
+.logo {
+    height: 100px;
+}
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .1s;
+    transition-timing-function: ease-in-out;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(37, 19, 19);
+}
+
+.navbar ul li:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+ 
+
+.btn2:hover{
+    cursor: aerrow;
+    color: gold;
+}
+.mainbody {
+    background-image: linear-gradient(65.68deg,rgba(0, 8, 29, 0.6) 9.51%,rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%),linear-gradient(102.21deg, rgba(0, 
+    0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27% ,rgba(1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%),
+  url("./images/img5.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 0px 50px;
+    position: relative;
+
+}
+.mainbody h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 800px
+}
+.contents {
+    position: absolute;
+     top: 18%;
+     left: 8%;
+}
+.mainbody h2,.mainbody h3{
+    margin-top: 20px;
+}
+.email_box{
+    margin-top: 20px;
+}
+input[type="text"] { 
+    outline: none;
+    width: 400px;
+    padding: 17px;
+    background-color: rgba(49, 49, 49, 0.699);
+    transition: all .3s;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+  
+}
+.btn2 {
+    position: relative;
+    top: 4px;
+    left: 5px;
+    background-color: aqua;
+    padding: 11px 18px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: 7000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.container{
+    width: 100%;
+    height: 300vh;
+    margin-top: 5%;
+
+}
+.box {
+    position: relative;
+    display: flex;
+    flex-direction : column;
+    gap: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(146.51deg,rgba(0, 8, 29, 0.75) 0%,rgba(53, 13, 49, 0.6) 80.34%, rgba(132, 5, 25, 0.6) 110.79%);
+    margin: 0px 50px;
+    height: 300vh;
+
+}
+
+.box_contents {
+    justify-content: space-between;
+    display: flex;
+    height: 470px;
+    width: 95%;
+    
+}
+.box_contents img {
+    height: 300px;
+     
+}
+.box_contents_text{
+    margin-top: 60px;
+}
+.box_contents_text h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.box_contents_text h2 {
+    margin-top: 5%;
+     font-size: 20px;
+    font-weight: 600;
+}
+    
+.first{
+     position: absolute;
+     top: 22%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     height: 7px;
+     width: 1150px;
+     background-color: rgba(255, 255, 255, 0.1);
+
+}
+.second{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 7px;
+    width: 1150px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+.third {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 7px;
+    width: 1150px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+.fourth {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 7px;
+    width: 1150px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+.faq {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.faq h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+.questions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 70px;
+    background-color: rgb(19,33,68);
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.questions:hover {
+    background-color: rgb(32,50,97);
+}
+.answer {
+    background-color: rgb(19,33,68);
+    font-size: 25px;
+    padding: 10px;
+
+
+}
+.display {
+    display: block;
+}
+
+.faq h2{
+    margin-top: 5%;
+    font-size: 20px;
+}
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+
+}
+.footer {
+    margin-top: 3%;
+    display: flex;
+    gap: 100px;
+}
+.row p{
+    margin: 10px;
+    margin-top: 10%;
+}
+
+
+
+ 
